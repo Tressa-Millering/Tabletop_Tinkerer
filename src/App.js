@@ -23,6 +23,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Layout loggedIn={loggedIn} setLoggedIn={setLoggedIn} setUserId={setUserId}/>}>
                     <Route index element={<Landing/>}/>
+                    <Route path="/Tabletop_Tinkerer" element={<Landing/>}/>
                     <Route path="/About" element={<About/>}/>
                     <Route path="/Calculator" element={<Calculator/>}/>
                     <Route path="/Register" element={<Register setLoggedIn={setLoggedIn} setUserId={setUserId}/>}/>
@@ -31,7 +32,7 @@ function App() {
                     <Route path="*" element={<NoPage/>}/>
                 </Route>
             </Routes>
-    </BrowserRouter>
+        </BrowserRouter>
   );
 }
 

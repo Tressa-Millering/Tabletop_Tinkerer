@@ -1,6 +1,6 @@
-
+import SmokeyBG from "../../assets/backgrounds/smokey-bg.mp4"
 const BackgroundVideo = () => (
-        <video src="./assets/backgrounds/smokey-bg.mp4"
+        <video src={SmokeyBG}
                autoPlay loop muted playsInline preload="auto" className="smokey-bg"/>
     )
 

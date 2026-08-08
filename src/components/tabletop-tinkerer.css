@@ -1,7 +1,7 @@
 /* SITE WIDE */
 @font-face {
     font-family: ConduitITC;
-    src: url("../../public/assets/Conduit ITC Regular.otf");
+    src: url("../assets/Conduit ITC Regular.otf");
 }
 
 body {
@@ -83,7 +83,7 @@ hr{
 }
 
 .bg-texture{
-    background-image: url("../../public/assets/backgrounds/background-texture-2.jpg");
+    background-image: url("../assets/backgrounds/background-texture-2.jpg");
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: bottom;

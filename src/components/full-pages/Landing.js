@@ -1,5 +1,8 @@
 import Card from "../modular-components/Card";
 import BackgroundVideo from "../modular-components/BackgroundVideo";
+import LeadDangel from "../../assets/model-images/lead-angel.png"
+import MarineDangel from "../../assets/model-images/angel-marine.png"
+import  JumpDangel from "../../assets/model-images/jump-captain.png"
 
 const Landing = () => {
     return (
@@ -23,7 +26,7 @@ const Landing = () => {
                     With that, understanding when the odds are in your favor
                     and when they aren't is critical in determining whether
                     a move is worth it."
-                    imgSrc="./assets/model-images/lead-angel.png"
+                    imgSrc={LeadDangel}
                     imgAlt="Lead Dark Angel Model"
                     imgWidth="2561"
                     imgHeight="2561"
@@ -33,8 +36,8 @@ const Landing = () => {
                     text="Simply enter the necessary stats and abilities of the attacking and
                 defending units—or select them from our Wahapedia powered database—
                 and watch as the entire attack sequence is broken down into probabilities."
-                    imgSrc="./assets/model-images/angel-marine.png"
-                    imgAlt="Dark Angel Marine Model"
+                    imgSrc={MarineDangel}
+                    imgAlt="Dark Angel Marine"
                     imgWidth="3024"
                     imgHeight="3024"
                     imgFirst={true}
@@ -43,7 +46,7 @@ const Landing = () => {
                     text="Quick mental math or memorization skills shouldn't determine if you win.
                     Your gameplay decisions should be educated, not shots in the dark."
                     boldText="Try tabletop tinkerer today."
-                    imgSrc="./assets/model-images/jump-captain.png"
+                    imgSrc={JumpDangel}
                     imgAlt="Dark Angel Jump Captain Model"
                     imgWidth="2611"
                     imgHeight="2611"
