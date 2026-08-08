@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Tabletop_Tinkerer/static/css/main.deda0ddb.css",
+    "main.js": "/Tabletop_Tinkerer/static/js/main.afaee3e7.js",
+    "static/js/453.40a90391.chunk.js": "/Tabletop_Tinkerer/static/js/453.40a90391.chunk.js",
+    "static/media/background-texture-2.jpg": "/Tabletop_Tinkerer/static/media/background-texture-2.ef478174db85a80bd0b8.jpg",
+    "static/media/Conduit ITC Regular.otf": "/Tabletop_Tinkerer/static/media/Conduit ITC Regular.680338878461b073eabc.otf",
+    "index.html": "/Tabletop_Tinkerer/index.html",
+    "main.deda0ddb.css.map": "/Tabletop_Tinkerer/static/css/main.deda0ddb.css.map",
+    "main.afaee3e7.js.map": "/Tabletop_Tinkerer/static/js/main.afaee3e7.js.map",
+    "453.40a90391.chunk.js.map": "/Tabletop_Tinkerer/static/js/453.40a90391.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deda0ddb.css",
+    "static/js/main.afaee3e7.js"
+  ]
+}
