@@ -1,17 +1,22 @@
 {
   "files": {
     "main.css": "/Tabletop_Tinkerer/static/css/main.deda0ddb.css",
-    "main.js": "/Tabletop_Tinkerer/static/js/main.d594a405.js",
+    "main.js": "/Tabletop_Tinkerer/static/js/main.e1f8da4d.js",
     "static/js/453.40a90391.chunk.js": "/Tabletop_Tinkerer/static/js/453.40a90391.chunk.js",
+    "static/media/smokey-bg.mp4": "/Tabletop_Tinkerer/static/media/smokey-bg.f900a3bc72dcca6f3a38.mp4",
+    "static/media/angel-marine.png": "/Tabletop_Tinkerer/static/media/angel-marine.6950bd2ddc254f0f3acb.png",
+    "static/media/lead-angel.png": "/Tabletop_Tinkerer/static/media/lead-angel.8a3c2c830293db6faceb.png",
+    "static/media/jump-captain.png": "/Tabletop_Tinkerer/static/media/jump-captain.364e26153fb34bf96e4b.png",
     "static/media/background-texture-2.jpg": "/Tabletop_Tinkerer/static/media/background-texture-2.ef478174db85a80bd0b8.jpg",
+    "static/media/under-construction.webp": "/Tabletop_Tinkerer/static/media/under-construction.5dd2672422588ac53372.webp",
     "static/media/Conduit ITC Regular.otf": "/Tabletop_Tinkerer/static/media/Conduit ITC Regular.680338878461b073eabc.otf",
     "index.html": "/Tabletop_Tinkerer/index.html",
     "main.deda0ddb.css.map": "/Tabletop_Tinkerer/static/css/main.deda0ddb.css.map",
-    "main.d594a405.js.map": "/Tabletop_Tinkerer/static/js/main.d594a405.js.map",
+    "main.e1f8da4d.js.map": "/Tabletop_Tinkerer/static/js/main.e1f8da4d.js.map",
     "453.40a90391.chunk.js.map": "/Tabletop_Tinkerer/static/js/453.40a90391.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.deda0ddb.css",
-    "static/js/main.d594a405.js"
+    "static/js/main.e1f8da4d.js"
   ]
 }
