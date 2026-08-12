@@ -1,0 +1,27 @@
+@font-face {
+    font-family: ConduitITC;
+    src: url("../assets/Conduit ITC Regular.otf");
+}
+
+body {
+    font-family: ConduitITC, Arial, sans-serif;
+    color: rgb(220,220,220);
+}
+
+img {
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-size: 110%;
+}
+
+a:hover{
+    color: pink;
+}
+
+hr{
+    width: 90vw;
+}

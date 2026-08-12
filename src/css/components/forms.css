@@ -1,0 +1,63 @@
+.input-form {
+    background-color: black;
+    margin: 5% 3% 5%;
+    overflow: hidden;
+    border: white 3px solid;
+    padding: 1%;
+}
+
+.input-form :is(input, select) {
+    outline: 1px solid white;
+    border: 3px solid black;
+    margin: 1%;
+}
+
+
+.form-row div select option{
+    font-size: clamp(8px, 1vw, 1vw);
+}
+
+.form-group {
+    overflow: hidden;
+    background-color: black;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.form-group div {
+    margin: 10px;
+}
+
+.form-row {
+    flex-direction: row;
+    text-align: left;
+
+}
+.form-row input{
+    width: 100%;
+}
+
+@media (max-width: 500px) or (pointer: coarse){
+    .form-row {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.buttons input{
+    margin: 8% 1.5% 3%;
+    width: 30%;
+}
+
+.form-text {
+    padding: 2%;
+    font-size: clamp(15px, 2vw, 2vw);
+    color: rgb(230,230,230);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

@@ -3,25 +3,23 @@ import {useNavigate} from "react-router-dom";
 import {useState} from "react";
 
 const FormContainer = ({setLoggedIn, APIPath, large, setUserId, userId, children}) => {
-    const DEMO_SITE = true;
+    const DEMO_SITE = false;
 
     const navigate = useNavigate();
 
     const[errorMsg, setErrorMsg] = useState(null);
 
     const displayError = () => {
-
-
-
         if (errorMsg) {
             if (DEMO_SITE) {
                 return (<h4 style={{textAlign: "center", color: "Red", marginTop: "5%"}}>{errorMsg}</h4>)
             }
-            return (<h1 style={{textAlign: "center", color: "Red"}}>REQUEST FAILED: {errorMsg}</h1>)
+            return (<div style={{margin: "5% 5% 10% 5%"}}>
+                        <h1 style={{textAlign: "center", color: "Red"}}>REQUEST FAILED: </h1>
+                        <h2 style={{textAlign: "center", color: "lightgray"}}>{errorMsg}</h2>
+                    </div>)
         }
-
         return(<></>)
-
     }
 
     const handleSubmit = async (event) =>{
@@ -33,10 +31,16 @@ const FormContainer = ({setLoggedIn, APIPath, large, setUserId, userId, children
             return;
         }
 
+
         const formData = new FormData(event.target);
         const converted = Object.fromEntries(formData.entries());
+
+        if (APIPath === "register" && converted.password !== converted.passwordRepeat) {
+            setErrorMsg("Passwords must match.");
+            return;
+        }
         converted.userId = userId;
-        console.log(converted);
+        //console..og(converted);
 
         const response = await fetch(`http://localhost:8080/` + APIPath, {
             method: 'POST',
@@ -47,7 +51,7 @@ const FormContainer = ({setLoggedIn, APIPath, large, setUserId, userId, children
         });
         const data = await response.json();
         if (response.ok) {
-            console.log(response.status, data);
+            //console..og(response.status, data);
             setLoggedIn(true);
             if (APIPath === "account"){
                 setUserId(data.userId);
@@ -56,17 +60,17 @@ const FormContainer = ({setLoggedIn, APIPath, large, setUserId, userId, children
             }
             return navigate("/");
         } else if (response.status === 400) {
-            console.log(response.status, data, "Account does not exist!");
-            setErrorMsg("Account does not exist! Please register first! ");
+            //console..og(response.status, data, "Account does not exist!");
+            setErrorMsg("Account does not exist. Please register first. ");
         } else if (response.status === 401) {
-            console.log(response.status, data, "Credentials are incorrect!");
-            setErrorMsg("Credentials are incorrect!")
+            //console..og(response.status, data, "Credentials are incorrect!");
+            setErrorMsg("Credentials are incorrect.")
         } else if (response.status === 409) {
-            console.log(response.status, data, "Account already exists!")
-            setErrorMsg("Account already exists!");
+            //console..og(response.status, data, "Account already exists!")
+            setErrorMsg("Account already exists.");
         }
 
-        console.log("REQUEST FAILED. STATUS: ", response.status);
+        //console..og("REQUEST FAILED. STATUS: ", response.status);
 
     }
 

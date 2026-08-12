@@ -1,5 +1,5 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import './components/tabletop-tinkerer.css';
+import './css/main.css';
 import Layout from "./components/full-pages/Layout";
 import Landing from "./components/full-pages/Landing";
 import NoPage from "./components/full-pages/NoPage";
@@ -15,7 +15,7 @@ function App() {
     const[userId, setUserId] = useState("");
 
     useEffect(()=>{
-        console.log(userId);
+        // console.log(userId);
     }, [userId]);
 
     return (

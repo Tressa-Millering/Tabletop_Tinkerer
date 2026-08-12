@@ -1,6 +1,6 @@
 const FormContactInfo = ({defPhoneNumber, defEmail, setPhoneNumber, setEmail}) => (
-    <div className="form-group form-row">
-        <div>
+    <div className="form-row form-group">
+        <div className="form-group">
             <label htmlFor="phoneNumber">Phone Number</label>
             <input style={{width: "70%"}}
                    type="tel" id="phoneNumber" name="phoneNumber"
@@ -8,15 +8,13 @@ const FormContactInfo = ({defPhoneNumber, defEmail, setPhoneNumber, setEmail}) =
                    value={defPhoneNumber ?? ''}
                    onChange={(e) => setPhoneNumber(e.target.value)} required/>
         </div>
-        <div>
-            <div className="form-group">
+        <div className="form-group">
                 <label htmlFor="email">Email</label>
                 <input type="text" id="email" name="email"
                        placeholder="jonny@hotmail.com"
                        value={defEmail ?? ''}
                        onChange={(e) => setEmail(e.target.value)} required/>
-            </div>
-        </div>e
+        </div>
     </div>
 )
 
