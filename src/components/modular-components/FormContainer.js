@@ -3,7 +3,7 @@ import {useNavigate} from "react-router-dom";
 import {useState} from "react";
 
 const FormContainer = ({setLoggedIn, APIPath, large, setUserId, userId, children}) => {
-    const DEMO_SITE = false;
+    const DEMO_SITE = true;
 
     const navigate = useNavigate();
 
