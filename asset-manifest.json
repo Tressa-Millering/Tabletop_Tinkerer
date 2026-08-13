@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Tabletop_Tinkerer/static/css/main.bd6c6299.css",
-    "main.js": "/Tabletop_Tinkerer/static/js/main.e12bb892.js",
+    "main.js": "/Tabletop_Tinkerer/static/js/main.28876bf9.js",
     "static/js/453.40a90391.chunk.js": "/Tabletop_Tinkerer/static/js/453.40a90391.chunk.js",
     "static/media/smokey-bg.mp4": "/Tabletop_Tinkerer/static/media/smokey-bg.a308722df6adf935537b.mp4",
     "static/media/angel-marine.png": "/Tabletop_Tinkerer/static/media/angel-marine.6950bd2ddc254f0f3acb.png",
@@ -12,11 +12,11 @@
     "static/media/Conduit ITC Regular.otf": "/Tabletop_Tinkerer/static/media/Conduit ITC Regular.680338878461b073eabc.otf",
     "index.html": "/Tabletop_Tinkerer/index.html",
     "main.bd6c6299.css.map": "/Tabletop_Tinkerer/static/css/main.bd6c6299.css.map",
-    "main.e12bb892.js.map": "/Tabletop_Tinkerer/static/js/main.e12bb892.js.map",
+    "main.28876bf9.js.map": "/Tabletop_Tinkerer/static/js/main.28876bf9.js.map",
     "453.40a90391.chunk.js.map": "/Tabletop_Tinkerer/static/js/453.40a90391.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd6c6299.css",
-    "static/js/main.e12bb892.js"
+    "static/js/main.28876bf9.js"
   ]
 }
